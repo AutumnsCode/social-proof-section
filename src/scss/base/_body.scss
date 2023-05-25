@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+body {
+  height: 100vh;
+  background: url("../../../images/bg-pattern-bottom-desktop.svg"), url("../../../images/bg-pattern-top-desktop.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50%, 50%;
+  background-position: bottom right, top left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.container {
+  width: 69rem;
+  margin-inline: auto;
+  margin-block: 11rem;
+  display: grid;
+  grid-template-columns: 1fr 1rem 1fr;
+  grid-template-areas:
+      "header . rating"
+      "commentary commentary commentary"
+  ;
+}
+

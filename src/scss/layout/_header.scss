@@ -1,0 +1,19 @@
+.header {
+  grid-area: header;
+
+  &-title {
+    width: 70%;
+    font-size: 3.125rem;
+    color: var(--clr-primary-very-dark-magenta);
+    margin-bottom: 1.75rem;
+    font-weight: bold;
+  }
+
+  &-description {
+    width: 70%;
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 1.1;
+  }
+
+}
